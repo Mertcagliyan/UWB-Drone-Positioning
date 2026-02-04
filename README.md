@@ -5,6 +5,10 @@ This repository houses a robust, Python-based positioning framework designed to 
 
 Key capabilities include a custom GPS Emulation Layer that transforms local metric coordinates into global WGS84 standards and injects them into Pixhawk flight controllers via the NMEA 0183 protocol (specifically GPRMC and GPGGA sentences). The project offers flexible architectural implementations ranging from a stable synchronous loop to advanced Asyncio and Threading models for high-concurrency performance. Additionally, it features MAVSDK and ZMQ integration, allowing for dynamic anchor positioning and data sharing within multi-agent drone swarms.
 
+This repository contains the **high-level algorithms** and **visualization tools**. 
+For the **hardware firmware** (ESP32 + DWM1000 drivers), please visit the companion repository:
+👉 **[ESP32-DWM1000-Driver](https://github.com/Mertcagliyan/ESP32-DWM1000-Driver)**
+
 ## 🚀 Key Features
 
 * **Real-Time Trilateration:** Uses Least Squares optimization to solve position from distance measurements.
