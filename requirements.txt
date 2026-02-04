@@ -1,0 +1,16 @@
+# Core Dependencies (Required for Standalone & Swarm)
+pyserial
+numpy
+scipy
+pyproj
+pynmea2
+
+# Advanced & Network Dependencies (Required for Swarm/MAVSDK mode)
+mavsdk
+pyzmq
+
+# Experimental Dependencies (Required for Asyncio scripts)
+pyserial-asyncio
+
+# Visualization (Optional)
+matplotlib
