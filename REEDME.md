@@ -1,6 +1,6 @@
 # UWB-Based Drone Positioning System
 
-## Project Overview
+### Project Overview
 This repository houses a robust, Python-based positioning framework designed to enable autonomous drone navigation in GPS-denied environments using Ultra-Wideband (UWB) technology. The system employs Least Squares Multilateration algorithms to calculate precise real-time coordinates (x, y, z) based on distance measurements from UWB anchors.
 
 Key capabilities include a custom GPS Emulation Layer that transforms local metric coordinates into global WGS84 standards and injects them into Pixhawk flight controllers via the NMEA 0183 protocol (specifically GPRMC and GPGGA sentences). The project offers flexible architectural implementations ranging from a stable synchronous loop to advanced Asyncio and Threading models for high-concurrency performance. Additionally, it features MAVSDK and ZMQ integration, allowing for dynamic anchor positioning and data sharing within multi-agent drone swarms.
