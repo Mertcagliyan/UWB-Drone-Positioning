@@ -59,6 +59,7 @@ This is the easiest way to test the algorithm.
 If you are running a swarm or receiving anchor data via network:
 ```bash
 python main_swarm.py
+```
 
 ## 📄 License
 
