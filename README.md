@@ -68,4 +68,4 @@ python main_swarm.py
 ## 📄 License
 
 **GNU General Public License v3.0**
-See the [LICENSE](LICENSE) file for details.
+See the [LICENSE](https://github.com/Mertcagliyan/UWB-Drone-Positioning?tab=GPL-3.0-1-ov-file) file for details.
